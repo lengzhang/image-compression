@@ -1,0 +1,38 @@
+{
+    "name": "image-compression",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node src/index.js",
+        "grayscale": "npm start grayscale",
+        "rlcge": "npm start rlcg-encoding",
+        "rlcgd": "npm start rlcg-decoding",
+        "rlcbpe": "npm start rlcbp-encoding",
+        "rlcbpd": "npm start rlcbp-decoding",
+        "vlche": "npm start vlch-encoding",
+        "vlchd": "npm start vlch-decoding",
+        "lzwe": "npm start lzw-encoding",
+        "lzwd": "npm start lzw-decoding",
+        "rms": "npm start rms",
+        "test-grayscale": "npm start grayscale ./images/lena512color.tiff",
+        "test-rlcge": "npm run rlcge ./images/grayscale.png",
+        "test-rlcgd": "npm run rlcgd ./images/rlcg-encoded.rlcg",
+        "test-rlcbpe": "npm run rlcbpe ./images/grayscale.png",
+        "test-rlcbpd": "npm run rlcbpd ./images/rlcbp-encoded.rlcbp",
+        "test-vlche": "npm run vlche ./images/grayscale.png",
+        "test-vlchd": "npm run vlchd ./images/vlch-encoded.vlch",
+        "test-lzwe": "npm run lzwe ./images/grayscale.png",
+        "test-lzwd": "npm run lzwd ./images/lzw-encoded.lzw"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "jimp": "^0.16.1"
+    },
+    "devDependencies": {
+        "prettier": "^2.4.1"
+    }
+}
