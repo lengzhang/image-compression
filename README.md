@@ -1,11 +1,17 @@
 # Image Compression
 
+## Description
+
 This application can compress grayscaled image by following methods:
 
 -   Run length coding on the grayscale values
 -   Run length coding on the Bit planes
 -   Variable length Huffman coding
 -   LZW (for Extra credit only)
+
+## How to Start?
+
+`yarn install`
 
 ## Usage:
 
