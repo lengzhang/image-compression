@@ -80,8 +80,8 @@ const encoding = async (filePath) => {
     const originalData = image.bitmap.data.join(' ');
 
     console.log(
-        `Compression Ratio = ${originalData.length} / ${encodedData.length} = ${
-            originalData.length / encodedData.length
+        `Compression Ratio = ${originalData.length} / ${data.length} = ${
+            originalData.length / data.length
         }`,
     );
 };

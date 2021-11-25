@@ -71,9 +71,9 @@ const encoding = async (filePath) => {
 
     const originalData = image.bitmap.data.join(' ');
     console.log(
-        `Compression Ratio = ${originalData.length} / ${
-            encodedMessage.length
-        } = ${originalData.length / encodedMessage.length}`,
+        `Compression Ratio = ${originalData.length} / ${data.length} = ${
+            originalData.length / data.length
+        }`,
     );
 };
 
